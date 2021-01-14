@@ -16,6 +16,6 @@ TABLE B 의 레코드 수 : R(B)
 ![이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRebRq%2FbtqwjvvlYgM%2Fno5HNEQBVtVlxBdRLlhFK1%2Fimg.png)  
     + 좌측테이블을 구동테이블, 외부테이블이라 부르고 우측테이블을 내부테이블이라 칭한다. 
     + 2개의 테이블의 결합이 실행될 때 구동테이블의 크기가 작아야 성능이 좋다. 
-    + 구동테이블의 크기만 작을 것이 아니라, 내부테이블 내 결합키 인덱스가 있어야 한다. (유니크할수록 성능 좋음->반복을 줄일 수 있기 때문)
+    + 구동테이블의 크기만 작을 것이 아니라, 내부테이블 내 결합키 인덱스가 있어야 한다.  (유니크할수록 성능 좋음->반복을 줄일 수 있기 때문)
 * Hash
 * Sorted Merge
