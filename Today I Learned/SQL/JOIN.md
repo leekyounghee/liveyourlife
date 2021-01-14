@@ -11,7 +11,9 @@ TABLE B 의 레코드 수 : R(B)
 
 
 ### JOIN ALGORITHM (결합 알고리즘)
+- DBMS의 옵티마이저가 실행계획 세울 때 데이터 크기, 결합키의 분산에 따라 알고리즘 선택
 * Nested Loops
-
+https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRebRq%2FbtqwjvvlYgM%2Fno5HNEQBVtVlxBdRLlhFK1%2Fimg.png
+ + 2개의 테이블의 결합이 실행될 때 구동테이블의 크기가 작아야 성능이 좋다. 
 * Hash
 * Sorted Merge
